@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Kriti Prajapati</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Staatliches&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="loading">
+        Loading...
+    </div>
+    <div class="main" id="mainContainer" hidden>
+        <div id="profile">
+            <div class="intro">
+                <img id="profileImage">
+                <h1 id="fullName"></h1>
+                <p id="bio"></p>
+                <br>
+                <p id="followersInformation">
+                    I have been followed by 
+                    <b id="follower"></b>
+                    awesome people on Github.
+                </p>
+                <br>
+            <div>
+                <div class="github-div" style="font-size: 25px;">Follow me on </div>
+                <a id="githubLink" target="_blank">
+                    <img src="github.png" class="github-icon" />
+                </a>
+            </div>
+        </div>
+        
+        
+
+        <div class="content" id="myRepo">
+            <br>
+            <h1>My Repositories in Github</h1>
+    
+            <table border="1" cellspacing="0" cellpadding="0" width="90%"  id="repo_table">
+                <tr>
+                    <th>S.N.</th>
+                    <th>Repos</th>
+                    <th>Repos Link </th>
+                </tr>
+            </table>
+        </div>
+    
+    <hr style="width: 100%;">
+        <div class="footer">
+            <p style="text-align: center; font-size: 15px; border-top: 2px solid #1362AD; padding-top: 15px;">&copy;Kriti</p>
+        </div>
+    </div>
+</div>
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>

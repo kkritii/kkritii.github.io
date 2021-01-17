@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+
+#profile{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: rgb(88, 113, 171);
+}
+#profileImage{
+    width: 20%;
+    height: 20%;
+    min-width: 150px;
+    min-height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+#fullName {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+}
+.intro {
+    margin-bottom: 10px;
+}
+@media (max-width: 720px) {
+    #fullName {
+        font-size: 2.5rem;
+    }
+    .intro {
+        margin: 15%;
+    }
+    #followersInformation,.github-div {
+        font-size: 0.8rem;
+    }
+}
+
+#bio {
+    font-size: 1.5rem;
+}
+#followersInformation, .github-div{
+    font-size: 1.1rem;
+}
+#follower{
+    font-size: 1.4rem;
+}
+.github-icon{
+    width: 5%;
+    min-width: 40px;
+    opacity: 0.6;
+    transition: opacity 150ms ease-in-out;
+    color: white;
+}
+.github-icon:hover {
+    opacity: 1;
+}
+
+.content{
+    margin: 0px auto 50px auto; 
+    width: 800px;
+    min-height: 580px;
+	border: 2px solid #1362AD;
+    text-align: center;  
+    color: black;
+    background-color: aliceblue;  
+}
+#repo_table{
+    margin: 5px auto ; 
+}
+
+
